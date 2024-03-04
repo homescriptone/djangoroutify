@@ -88,3 +88,20 @@ In production mode, the manifest_json generated into static/dist/manifest.json r
 </html>
 
 ````
+In order to build for dev, you'll need to open two terminal windows. One to run Routify in dev mode and another for django server
+
+    npm run dev
+
+    python manage.py runserver
+
+In order to build for production : 
+
+    npm run build
+
+    python manage.py collectstatic
+    
+    python manage.py runserver
+    
+
+Learn more about Django here : https://www.djangoproject.com/
+Learn more about Django_Vite here : https://github.com/MrBin99/django-vite
