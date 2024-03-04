@@ -103,5 +103,6 @@ In order to build for production :
     python manage.py runserver
     
 
-Learn more about Django here : https://www.djangoproject.com/
-Learn more about Django_Vite here : https://github.com/MrBin99/django-vite
+Learn more about Django here : https://www.djangoproject.com/  
+Learn more about Django_Vite here : https://github.com/MrBin99/django-vite  
+Learn more about Routify here : https://routify.dev/docs
