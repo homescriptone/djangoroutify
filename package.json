@@ -1,0 +1,23 @@
+{
+    "name": "x456",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "touch ./dist/client/index.html && cp ./web/templates/index.html ./dist/client/index.html && vite build",
+      "preview": "vite preview"
+    },
+    "devDependencies": {
+      "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+      "@inertiajs/inertia": "^0.11.1",
+      "@inertiajs/inertia-svelte": "^0.8.0",
+      "@inertiajs/progress": "^0.2.7",
+      "@sveltejs/vite-plugin-svelte": "^2.0.0",
+      "svelte": "^4.2.12",
+      "vite": "^4.0.0"
+    },
+    "dependencies": {
+      "@roxi/routify": "^3.0.0-next.217"
+    }
+  }
